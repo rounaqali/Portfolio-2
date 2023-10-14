@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="date"></div>
+    <header id="logo">
+        <a href="#" id="port">ROUNAQ ALI</a>
+        <navbar id="nav">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Skills</a>
+            <a href="#">Projects</a>
+            <a href="#">Contact</a>
+        </navbar>
+    </header>
+
+
+    </div>
+    <div class="introduction">
+        <div class="intro">Hello,its me
+            <br>
+            <h2>ROUNAQ ALI</h2>I am a full stack Web Developer in <br>developing web applications and back end systems.<br> Skilled at writing clear, concise code that is easy to maintain and troubleshoot. </div>
+        <div class="img"><img src="gogles.png" alt="image">
+        </div>
+    </div>
+    <div class="contact">
+        <h1>Contact ME:-</h1>
+        <a href="rounaqali2003@gmail.com"><img src="Gmail-logo.png" alt="logo"></a>
+        <a href="https://www.linkedin.com/in/rounaq-ali-460940278"><img src="linkedin logo.png" alt="logo"></a>
+        <a href="https://github.com/rounaqali"><img src="GitHub-logo.png" alt="logo"></a>
+        <a href="https://www.facebook.com/rounaq.ali.9275?mibextid=ZbWKwL"><img src="facebook logo.png" alt="logo"></a>
+        <a href="https://instagram.com/rounaq__04__?igshid=NGExMmI2YTkyZg=="><img src="insta logo.jpeg" alt="logo"></a>
+    </div>
+    <div class="what">
+        <div class="photo"><img src="ronak-removebg.png" alt=""></div>
+        <div class="details">
+            <h1>What i do</h1><br>CRAZY FULL STACK WEB DEVELOPER WHO WANT TO EXPLORE EVERY TECH STACK<br>
+            <ul>
+                <li>Develop highly interactive Front end / User Inteerface for your web and mobile applications</li>
+                <li>Progressive Web Applications (PWA) in normal and SPA Stacks</li>
+            </ul>
+        </div>
+    </div>
+    <div class="prof">
+        <h1>Proficiency</h1><br><br>&nbsp&nbsp Frontend/Design
+        <div class="front"></div><br>&nbsp&nbsp Backend
+        <div class="back"></div><br>&nbsp&nbsp Programming
+        <div class="prog"></div>
+    </div>
+    <div class="reach">
+        <h1>Reach Out To ME!</h1>
+        <br>DISCUSS A PROJECT OR JUST WANT TO SAY HI MY INBOX IS OPEN FOR ALL
+        <br>
+        <h2>|| Full Stack Web Developer||</h2><br>Gurgaon, India<br>Open for opportunities:Yes<br>
+        <a href="rounaqali2003@gmail.com"><img src="Gmail-logo.png" alt="logo"></a>
+        <a href="https://www.linkedin.com/in/rounaq-ali-460940278"><img src="linkedin logo.png" alt="logo"></a>
+        <a href="https://github.com/rounaqali"><img src="GitHub-logo.png" alt="logo"></a>
+        <a href="https://www.facebook.com/rounaq.ali.9275?mibextid=ZbWKwL"><img src="facebook logo.png" alt="logo"></a>
+        <a href="https://instagram.com/rounaq__04__?igshid=NGExMmI2YTkyZg=="><img src="insta logo.jpeg" alt="logo"></a>
+    </div>
+    <script>
+        document.getElementById("date").innerHTML = new Date()
+    </script>
+</body>
+
+</html>
+
+
+CSS-----------
+
+            * {
+                margin: 0px;
+                padding: 0px;
+            }
+            
+            #date {
+                color: red;
+                text-align: right;
+            }
+            
+            #logo {
+                border: 1;
+                height: 40px;
+                text-align: justify;
+                background-image: linear-gradient( to right, white 30%, yellow 100%)
+            }
+            
+            #port {
+                color: purple;
+                font-family: algerian;
+                text-decoration: none;
+                font-size: 30px;
+                padding-left: 20px;
+            }
+            
+            #nav {
+                border: ;
+                height: 30px;
+                width: 200px;
+                margin: 0px 0px 9px 150px;
+                text-decoration: none;
+                word-spacing: 2.6em;
+                font: bold;
+                font-size: 20px;
+            }
+            
+            #nav a {
+                text-decoration: none;
+            }
+            
+            #nav a:hover {
+                opacity: 0.7;
+                background-color: black;
+                border-radius: 4px;
+                color: aqua;
+            }
+            
+            .introduction {
+                margin-top: 20px;
+                display: flex;
+                height: 300px;
+            }
+            
+            .intro {
+                margin-left: 50px;
+                line-height: 2em;
+                padding-top: 40px;
+            }
+            
+            .intro h2 {
+                color: rgb(0, 213, 7);
+                font-size: 30px;
+                font-family: Geneva;
+                font-weight: bolder;
+            }
+            
+            .img {
+                padding: 5px;
+                margin-left: 50px;
+                width: 280px;
+                border-radius: 50%;
+                height: 280px;
+                background-image: linear-gradient(darkblue, blue, lightblue, skyblue, aqua, aquamarine, purple);
+            }
+            
+            .img img {
+                height: 280px;
+                width: 280px;
+                border-radius: 50%;
+            }
+            
+            .contact {
+                display: flex;
+            }
+            
+            .contact h1 {
+                color: purple;
+                margin-left: 50px;
+                text-decoration: underline;
+            }
+            
+            .contact img {
+                margin-left: 50px;
+                background-size: cover;
+                height: 50px;
+                width: 50px;
+            }
+            
+            .contact img:hover {
+                opacity: 0.4;
+            }
+            
+            .what {
+                display: flex;
+            }
+            
+            .photo>img {
+                height: 300px;
+                margin-left: 70px;
+                width: 300px;
+            }
+            
+            .details {
+                margin-left: 70px;
+                margin-top: 50px;
+                width: 400px;
+                line-height: 2em;
+            }
+            
+            .details h1 {
+                color: purple;
+                text-align: center;
+                text-decoration: underline;
+            }
+            
+            .prof h1 {
+                color: gray;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                margin-top: 20px;
+            }
+            
+            .front {
+                width: 700px;
+                height: 30px;
+                border-radius: 10pc;
+                background-image: linear-gradient(to right, purple 80%, grey 20%);
+            }
+            
+            .back {
+                width: 700px;
+                height: 30px;
+                border-radius: 10pc;
+                background-image: linear-gradient(to right, purple 70%, grey 20%);
+            }
+            
+            .prog {
+                width: 700px;
+                height: 30px;
+                border-radius: 10pc;
+                background-image: linear-gradient(to right, purple 60%, grey 20%);
+            }
+            
+            .reach {
+                margin-left: 30px;
+                margin-top: 50px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            
+            .reach h2 {
+                margin-top: 20px;
+            }
+            
+            .reach img {
+                margin: 20px 0px 30px;
+                height: 30px;
+                width: 30px;
+            }
+
